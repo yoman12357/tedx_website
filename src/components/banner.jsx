@@ -3,9 +3,9 @@ import "../mainstyles.css";
 
 const Banner = () => {
   return (
-    <section className="banner">
+    <main className="banner" role="main" aria-label="Event banner with title">
       <h1 className="event-theme">ALCHEMY</h1>
-    </section>
+    </main>
   );
 };
 
